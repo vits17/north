@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml" >
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport "content="width=device-width,initial-scale=1.0">
+    <title>MY India-North</title>
+    <link rel="stylesheet"  th:href="@{/css/cs2.css}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+
+    <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+
+<nav>
+    <ul >
+        <span class="nav-item"><span class="text-warning" style="font-weight: 500px;">MY</span>TASTE</span>
+        <li><a th:href="@{/ht}">
+            <i class="fas fa-home" style="color: black;"></i>
+            <span class="nav-item">  Home</span>
+        </a></li>
+        <li><a href="#">
+            <span class="nav-item">Lucknow</span>
+        </a></li>
+        <li><a href="#">
+            <span class="nav-item">chandigarh</span>
+        </a></li>
+        <li><a th:href="@{/todos}" >
+            <i class="fas fa-tasks"style="color: black;"></i>
+            <span class="nav-item" >to do</span>
+        </a></li>
+    </ul>
+</nav>
+
+<div class="gallery"  >
+    <div class="content">
+        <img src="nihari.jpg" th:src="@{image/nihari.jpg}"/>
+        <h3>Rahim's Nihari</h3>
+        <p>Nihari and Kulcha</p>
+        <h6><a href="https://goo.gl/maps/zhG5cemyisGiBPTU9" style="text-decoration: none;">location</a></h6>
+
+        <ul>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star "></i></li>
+        </ul>
+        <button class="buy-1" ><a th:href="@{/todos/new}">Add Now</a></button>
+    </div>
+
+
+    <div class="content">
+        <img src="tk.jpg" th:src="@{image/tk.webp}"/>
+        <h3>Tundey kebabi</h3>
+        <p>Tundey kebab</p>
+        <h6><a href="https://goo.gl/maps/PTcAWUoJtjtS3BRL6" style="text-decoration: none;">location</a></h6>
+        <ul>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star "></i></li>
+        </ul>
+        <button class="buy-2"><a th:href="@{/todos/new}">Add Now</a></button>
+
+    </div>
+    <div class="content">
+        <img src="chai.jpg" th:src="@{image/chai.jpg}"/>
+        <h3>Sharma ji chai </h3>
+        <p>chai<br>bundmakkhan<br>circular samosa</p>
+        <h6>$100</h6>
+        <ul>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star "></i></li>
+        </ul>
+        <button class="buy-3"><a th:href="@{/todos/new}">Add Now</a></button>
+
+    </div>
+    <div class="content">
+        <img src="chai.jpg" th:src="@{image/chai.jpg}"/>
+        <h3>Sharma ji chai </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae</p>
+        <h6>$100</h6>
+        <ul>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star "></i></li>
+        </ul>
+        <button class="buy-3"><a th:href="@{/todos/new}">Add Now</a></button>
+
+    </div>
+
+    <div class="content">
+        <img src="chai.jpg"  th:src="@{image/chai.jpg}"/>
+        <h3>Sharma ji chai </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae</p>
+        <h6>$100</h6>
+        <ul>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star "></i></li>
+        </ul>
+        <button class="buy-3"><a th:href="@{/todos/new}">Add Now</a></button>
+
+    </div>
+
+    <div class="content">
+        <img src="chai.jpg"  th:src="@{image/chai.jpg}"/>
+        <h3>Sharma ji chai </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae</p>
+        <h6>$100</h6>
+        <ul>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star checked"></i></li>
+            <li> <i class="fa fa-star "></i></li>
+        </ul>
+        <button class="buy-3"><a th:href="@{/todos/new}">Add Now</a></button>
+
+    </div>
+</div>
+</body>
+</html>

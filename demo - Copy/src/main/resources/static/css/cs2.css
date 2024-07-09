@@ -1,0 +1,171 @@
+
+*{
+  top: 10px;
+margin: 0;
+padding: 0;
+outline:none ;
+border: none;
+text-decoration: none;
+box-sizing: border-box;
+font-family: "Aladin";
+}
+body{
+  background-color:#b2becb;
+}
+nav{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  background:burlywood;
+  width: 120px;
+  overflow: hidden;
+  transition: width 0.2s linear;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+
+}
+li,a{
+  position: relative;
+  left: -14px;
+  font-size: 23px;
+  display: table;
+  width: 400px;
+  padding: 10px;
+}
+
+.fas{
+  position: relative;
+  width:90px;
+  height: 40px;
+  top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item {
+  position: relative;
+  top: 12px;
+  margin-left: 5px;
+  color: black;
+}
+.nav-item  span{
+font-weight: 200;
+}
+nav a:hover{
+  background-color:#eee;
+}
+nav:hover{
+  width: 280px;
+  transition: all 0.5s ease;
+}
+h3{
+  text-align: center;
+  font-size: 30px;
+  margin:0;
+  padding-top: 10px;
+}
+a{
+  text-decoration: none;
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  margin:50px 0;
+  margin-left: 10vw;
+}
+.content{
+  width: 20%;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-top: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0,0,0,0.22);
+  transition: .4s;
+  background: #f2f2f2;
+
+}
+.content:hover{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),0 3px 6px rgba(0, 0, 0, 0.23);
+  transform: translate(0px,-8px);
+}
+img{
+  width: 200px;
+  height: 200px;
+  text-align: center ;
+  margin: 0 auto;
+  display: block;
+}
+p{
+  text-align: center;
+  color: #b2becb;
+  padding-top: 0 8px;
+}
+h6{
+  font-size: 26px;
+  text-align: center;
+  color: #222f3e;
+  margin: 0;
+}
+.content ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0;
+}
+.content li{
+ padding-left: -10px;
+}
+.content a{
+  text-align: center;
+}
+.fa{
+  font-size: 26px;
+  transition: .4s;
+
+}
+.checked{
+  color: chocolate;
+  font-size: 15px;
+  padding: 0;
+}
+.fa:hover{
+  transform: scale(1.3);
+  transition: .6s;
+}
+button{
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  margin-top: 5px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.buy-1{
+  background:rgb(143, 69, 69) ;
+}
+.buy-2{
+  background:rgb(174, 59, 109);
+}.buy-3{
+  background:rgb(71, 11, 18) ;
+}
+@media(max-width: 1000px){
+  .content{
+    width: 45%;
+  }
+}
+@media(max-width: 750px){
+  .content{
+    width: 100%;
+  }
+}

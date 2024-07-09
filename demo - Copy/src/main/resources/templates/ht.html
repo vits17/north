@@ -1,0 +1,158 @@
+<!Doctype html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport "content="width=device-width,initial-scale=1.0">
+  <title>MY India</title>
+  <link rel="stylesheet" th:href="@{/css/cs.css}" />
+  <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+ </head>
+
+
+<body>
+ 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><span class="text-warning">MY</span>TASTE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-warning " aria-current="page" href="#">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" th:href="@{/firstpage}">north</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="#South">south</a>
+          </li> <li class="nav-item">
+            <a class="nav-link text-warning" href="#Hilly">hilly</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="#West">west</a>
+          </li>
+        </ul>
+     </div>
+    </div>
+  </nav>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="bg.jpg" class="d-block w-100" alt="..."th:src="@{image/bg.jpg}"/>
+        <div class="carousel-caption ">
+          <h5>Food you search</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="bg2.jpg" class="d-block w-100" alt="..."th:src="@{image/bg2.jpg}"/>
+        <div class="carousel-caption ">
+          <h5>easy to reach</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="bg3.jpg" class="d-block w-100" alt="..." th:src="@{image/bg3.jpg}"/>
+        <div class="carousel-caption">
+          <h5>creative towards your TASTE</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+    <!--section about-->
+
+    <section id="about" class="about-section-padding">
+       <div class="container">
+        <div class="animate">  <i class="material-icons" style="font-size:50px;color:white;">cake</i>
+
+        </div>
+
+          <h2>TO EXPLORE ABOUT US</h2>
+          <p>We here bring you with customizable food diaries as a<br> bucket list to add the pleasurable food spots all around<br> the world. We will enlighten with authentic traditional food <br>spot as a food blogger and you can add on to the to do list .</p>
+        </div>
+    </section>
+
+
+    <!--specialities-->
+     <section id="speacial" class="special section-padding">
+      <div class="container">
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2> Features</h2>
+          </div>
+        </div>
+      
+
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-dark text-center  pb-2">
+            <div class="card-body">
+              <img src="todo.jpg" style="width:100%" th:src="@{image/todo.jpg}"/>
+              <h3 class="card-title"><b>TO-DO LIST</b> </h3>
+              <p class="lead">Customizable to do list to make inlog of your wishes of craving to do as 
+                bucket lists to vist authentic places being foodie and while travelling to that city visit there to explore.
+              </p>
+                  </div>
+                 </div>
+             </div>
+          
+
+        
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-dark text-center  pb-2">
+                <div class="card-body">
+                  <img src="rate.jpg" style="width:100%" th:src="@{image/rate.jpg}"/>
+
+                  <h3 class="card-title"><b> Ratings</b></h3>
+                  <p class="lead">Ratings will be provided along with evidence of onsite visit of food bloggers in India. Reviews will attract the efficiency of the site regarding taste.</p>
+                      </div>
+                     </div>
+                 </div>
+
+                <div class="col-12 col-md-12 col-lg-4">
+                  <div class="card text-dark text-center  pb-2">
+                    <div class="card-body">
+                      <img src="map.jfif" style="width:100%"th:src="@{image/map.jfif}"/>
+
+                      <h3 class="card-title"><b>EASY TO REACH</b></h3>
+                      <p class="lead">Every spot mentioned at particular city is approachable with exact and appropriate location and means of convenions are also suggested . Along with
+                        clickable directions towards the destination of ur taste buds
+                        .
+                      </p>
+                          </div>
+                         </div>
+                     </div>
+                  
+                  
+        </div>
+      </div>
+     </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
