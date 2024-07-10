@@ -1,3 +1,6 @@
+Many existing platforms for restaurant reviews or listings may not provide personalized wishlist features. Users might need a dedicated tool to manage and curate their restaurant preferences.So this application allows users to create and maintain a wishlist of restaurants they want to visit. This helps users keep track of their dining preferences and plans efficiently.
+
+
 ![Screenshot (124)](https://github.com/vits17/north/assets/126216579/cd58d340-83fa-42ee-9030-a35757959e3e)
 
 ![Screenshot (131)](https://github.com/vits17/north/assets/126216579/856efd30-4fa6-40fb-977f-05f1c590022b)
